@@ -7,9 +7,11 @@ example :
 ```
 blogData = [
     {
-        title: 'How to Run Localhost While not Sharing the Same Network.',
-  link: '/how-to-run-localhost-while-not-sharing-the-same-network',
-  description: 'While developing a portfolio website for a client I came across a bug in the UI which was somehow only showing in my mobile devices, not on localhost developer tools.\n' +
+    title: 'How to Run Localhost While not Sharing the Same Network.',
+
+    link: '/how-to-run-localhost-while-not-sharing-the-same-network',
+
+    description: 'While developing a portfolio website for a client I came across a bug in the UI which was somehow only showing in my mobile devices, not on localhost developer tools.\n' +
     'I had two choices\n' +
     '\n' +
     'Build and host it to sites like Netlify/Github pages (But it was...'
