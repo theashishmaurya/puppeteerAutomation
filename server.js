@@ -1,5 +1,5 @@
 const puppeteer = require("puppeteer");
-
+const axios = require("axios").default;
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
 
@@ -23,9 +23,16 @@ const puppeteer = require("puppeteer");
       link: link,
       description: description,
     };
-    blogData.push(blog);
+    axios
+      .post("http://localhost:3000/posts", {
+        id: 1 + Math.random(),
+        title: blog.title,
+        link: `https://blog.theashishmaurya.me${blog.link}`,
+        description: blog.description,
+      })
+      .then((res) => console.log(res.data))
+      .catch((err) => console.log(err));
   }
-  console.log(blogData);
 
   await browser.close();
 })();

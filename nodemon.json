@@ -1,0 +1,4 @@
+{
+    "verbdose" : true,
+    "ignore" : ["db.json"]
+}

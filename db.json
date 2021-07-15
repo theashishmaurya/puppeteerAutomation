@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1.4234385588793783,
+      "title": "How to Fetch Data From API in ReactJS.",
+      "link": "https://blog.theashishmaurya.me/how-to-fetch-data-from-api-in-reactjs",
+      "description": "While developing an application in ReactJs you might be asked to fetch some data from an API directly into the frontend and then process it.\nWell just fetching some data from the API is quite easy and today we gonna learn that.\nLet's get started\nFirs..."
+    },
+    {
+      "id": 1.0109619813235013,
+      "title": "How to Run Localhost While not Sharing the Same Network.",
+      "link": "https://blog.theashishmaurya.me/how-to-run-localhost-while-not-sharing-the-same-network",
+      "description": "While developing a portfolio website for a client I came across a bug in the UI which was somehow only showing in my mobile devices, not on localhost developer tools.\nI had two choices\n\nBuild and host it to sites like Netlify/Github pages (But it was..."
+    }
+  ]
+}
