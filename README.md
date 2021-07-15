@@ -33,3 +33,6 @@ This project is still under Development
 - To add express.js server
 - Create JSON DATABASE
 - Create rest-API to fetch data directly from the API
+
+Above are added using JSON server and axios :)
+<3 its fully working now YAAY
