@@ -1,6 +1,6 @@
 # Fetching the blog data using Puppeteer
 
-A simple program to fetch data my blog data from [blog.theashishmaurya.me] in JSON format.
+A simple program to fetch data my blog data from (blog.theashishmaurya.me)in JSON format.
 
 example :
 
